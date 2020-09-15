@@ -1,0 +1,22 @@
+.section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.field,
+.field:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.radio {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.radio + .radio {
+  margin-left: 0;
+}
+
+.radio > input {
+  margin-right: 0.5rem;
+}
